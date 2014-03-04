@@ -18,5 +18,29 @@ The algorithm has three basic categories:
 
 More information can found by clicking on the below links:
 
-* http://www.nuffieldtrust.org.uk/our-work/projects/predicting-risk-hospital-readmission-parr-30
 * http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
+* http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
+
+About the Implementation
+------------------------
+
+The way PARR 30 scores the likelihood of hospital readmission by using the following criteria:
+
+* The hospital in which the patient was treated
+* The patient's age
+* The deprivation score of the lower super output area (LSOA) in which the patient resides (according to the 2007 census)
+* The number of hospital admissions in the last year
+* Whether or not the patient was admitted to hospital in the last month
+* Whether or not the current hospital admission was for an emergency
+* Information about the patient's medical history, and specifically whether or not they suffer from the following conditions:
+    * Congestive heart failure
+    * Peripheral vascular disease
+    * Dementia
+    * Chronic pulmonary disease
+    * Other liver disease
+    * Other malignant cancer
+    * Metastatic cancer with solid tumour
+    * Moderate/severe liver disease
+    * Diabetes with chronic complications
+    * Hemiplegia or paraplegia
+    * Renal disease
