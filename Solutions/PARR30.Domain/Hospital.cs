@@ -6,6 +6,7 @@ namespace PARR30.Domain
 	public class Hospital
 	{
 		public string Name { get; set; }
+
 		public double Coefficient { get; set; }
 	}
 }

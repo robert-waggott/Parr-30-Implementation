@@ -6,7 +6,7 @@ What is PARR 30?
 
 The Parr 30 is an algorithm, created by the [Nuffield Trust](http://www.nuffieldtrust.org.uk/), to predict hospital readmission:
 
-> Following the Government’s announcement in 2010 that hospitals in England would not be reimbursed for some emergency hospital readmissions occurring 
+> Following the [UK's] Government’s announcement in 2010 that hospitals in England would not be reimbursed for some emergency hospital readmissions occurring 
 > within 30 days of discharge, the interest in finding ways of preventing these became greater than ever. The Nuffield Trust developed an algorithm for 
 > predicting which patients are most at risk of short term readmission, designed to be used by acute hospitals.
 
@@ -49,3 +49,4 @@ The way PARR 30 scores the likelihood of hospital readmission by using the follo
 
 See the [Nuffield Trust's BMJ Appendix](http://bmjopen.bmj.com/content/2/4/e001667/suppl/DC1) for the coefficient values for all of the fields.
 
+Postcode to LSOA data can be downloaded [from here](http://data.gov.uk/dataset/index_of_multiple_deprivation_imd_2007). 

@@ -1,6 +1,9 @@
 namespace PARR30.Domain
 {
 	using System;
+	using System.Linq;
+
+	using PARR30.Domain.Attributes;
 
 	public enum HealthCondition
 	{
@@ -49,25 +52,26 @@ namespace PARR30.Domain
 		Dementia
 	}
 
-	[AttributeUsage(AttributeTargets.All, AllowMultiple=false)]
-	public class DescriptionAttribute : Attribute
+	public static class HealthConditionExtensionMethods
 	{
-		public DescriptionAttribute(string description)
+		public static string GetDescription(this HealthCondition healthCondition)
 		{
-			this.Description = description;
+			var attribute = healthCondition.GetType()
+				.GetMember(healthCondition.ToString())[0]
+				.GetCustomAttributes(typeof(DescriptionAttribute), false)
+				.FirstOrDefault() as DescriptionAttribute;
+
+			return attribute != null ? attribute.Description : null;
 		}
 
-		public string Description { get; private set; }
-	}
-
-	[AttributeUsage(AttributeTargets.All, AllowMultiple=false)]
-	public class CoefficientAttribute : Attribute
-	{
-		public CoefficientAttribute(double coefficient)
+		public static double GetCoefficient(this HealthCondition healthCondition)
 		{
-			this.Coefficient = coefficient;
-		}
+			var attribute = healthCondition.GetType()
+				.GetMember(healthCondition.ToString())[0]
+				.GetCustomAttributes(typeof(CoefficientAttribute), false)
+				.FirstOrDefault() as CoefficientAttribute;
 
-		public double Coefficient { get; private set; }
+			return attribute != null ? attribute.Coefficient : 0;
+		}
 	}
 }

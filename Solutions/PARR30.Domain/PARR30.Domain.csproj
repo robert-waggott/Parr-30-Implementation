@@ -38,6 +38,8 @@
     <Compile Include="Parr30OutputLine.cs" />
     <Compile Include="HealthCondition.cs" />
     <Compile Include="Hospital.cs" />
+    <Compile Include="Attributes\CoefficientAttribute.cs" />
+    <Compile Include="Attributes\DescriptionAttribute.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

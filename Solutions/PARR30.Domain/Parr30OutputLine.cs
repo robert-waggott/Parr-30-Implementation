@@ -18,8 +18,11 @@ namespace PARR30.Domain
 		}
 
 		public string Information { get; set; }
+
 		public double? Value { get; set; }
+
 		public double Coefficient { get; set; }
+
 		public double Total { get; private set; }
 
 		private double CalculateTotal()

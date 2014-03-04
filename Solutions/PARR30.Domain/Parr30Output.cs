@@ -14,12 +14,9 @@ namespace PARR30.Domain
 		}
 
 		public IList<Parr30OutputLine> Lines { get; set; }
-		public double Total { get; set; }
-		public double Probability { get; set; }
 
-		public bool Recommended 
-		{
-			get { return this.Probability > 19; }
-		}
+		public double Total { get; set; }
+
+		public double Probability { get; set; }
 	}
 }
