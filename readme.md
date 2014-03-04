@@ -21,7 +21,7 @@ More information can found by clicking on the below links:
 * http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
 * http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
 
-About the Implementation
+About the implementation
 ------------------------
 
 The way PARR 30 scores the likelihood of hospital readmission by using the following criteria:
@@ -44,3 +44,8 @@ The way PARR 30 scores the likelihood of hospital readmission by using the follo
     * Diabetes with chronic complications
     * Hemiplegia or paraplegia
     * Renal disease
+
+### Detailed implementation notes
+
+See the [Nuffield Trust's BMJ Appendix](http://bmjopen.bmj.com/content/2/4/e001667/suppl/DC1) for the coefficient values for all of the fields.
+
