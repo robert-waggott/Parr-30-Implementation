@@ -3,16 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Console", "Solutions\PARR30.Console\PARR30.Console.csproj", "{4F7F9C99-5461-42AF-8923-4B9DED169F82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Domain", "Solutions\PARR30.Domain\PARR30.Domain.csproj", "{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Providers", "Solutions\PARR30.Providers\PARR30.Providers.csproj", "{30579105-EDC9-462E-8616-22D481BD36DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30579105-EDC9-462E-8616-22D481BD36DE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30579105-EDC9-462E-8616-22D481BD36DE}.Debug|x86.Build.0 = Debug|Any CPU
+		{30579105-EDC9-462E-8616-22D481BD36DE}.Release|x86.ActiveCfg = Release|Any CPU
+		{30579105-EDC9-462E-8616-22D481BD36DE}.Release|x86.Build.0 = Release|Any CPU
 		{4F7F9C99-5461-42AF-8923-4B9DED169F82}.Debug|x86.ActiveCfg = Debug|x86
 		{4F7F9C99-5461-42AF-8923-4B9DED169F82}.Debug|x86.Build.0 = Debug|x86
 		{4F7F9C99-5461-42AF-8923-4B9DED169F82}.Release|x86.ActiveCfg = Release|x86
 		{4F7F9C99-5461-42AF-8923-4B9DED169F82}.Release|x86.Build.0 = Release|x86
+		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Solutions\PARR30.Console\PARR30.Console.csproj
