@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Domain", "Solutions\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Providers", "Solutions\PARR30.Providers\PARR30.Providers.csproj", "{30579105-EDC9-462E-8616-22D481BD36DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.UnitTests", "PARR30.UnitTests\PARR30.UnitTests.csproj", "{F9CD882E-9C1E-496A-9115-1DA821DE749C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56D67237-6646-45D4-9DCD-2AE88417C493}"
+	ProjectSection(SolutionItems) = preProject
+		Gruntfile.js = Gruntfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,8 +27,46 @@ Global
 		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Debug|x86.Build.0 = Debug|Any CPU
 		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Release|x86.ActiveCfg = Release|Any CPU
 		{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}.Release|x86.Build.0 = Release|Any CPU
+		{F9CD882E-9C1E-496A-9115-1DA821DE749C}.Debug|x86.ActiveCfg = Debug|x86
+		{F9CD882E-9C1E-496A-9115-1DA821DE749C}.Debug|x86.Build.0 = Debug|x86
+		{F9CD882E-9C1E-496A-9115-1DA821DE749C}.Release|x86.ActiveCfg = Release|x86
+		{F9CD882E-9C1E-496A-9115-1DA821DE749C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Solutions\PARR30.Domain\PARR30.Domain.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.IndentBlocksInsideExpressions = True
+		$2.AnonymousMethodBraceStyle = NextLine
+		$2.PropertyBraceStyle = NextLine
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.WhileNewLinePlacement = DoNotCare
+		$2.ArrayInitializerWrapping = DoNotChange
+		$2.ArrayInitializerBraceStyle = NextLine
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.NewLineBeforeConstructorInitializerColon = NewLine
+		$2.NewLineAfterConstructorInitializerColon = SameLine
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
 	EndGlobalSection
 EndGlobal

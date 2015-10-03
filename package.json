@@ -1,0 +1,24 @@
+{
+  "name": "PARR30",
+  "version": "1.0.0",
+  "description": "Parr 30 C# Implmentation",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robert-waggott/Parr-30-Implementation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-waggott/Parr-30-Implementation/issues"
+  },
+  "homepage": "https://github.com/robert-waggott/Parr-30-Implementation",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.2"
+  }
+}
