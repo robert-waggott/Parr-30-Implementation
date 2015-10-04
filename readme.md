@@ -19,7 +19,6 @@ The algorithm has three basic categories:
 More information can found by clicking on the below links:
 
 * http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
-* http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
 
 About the implementation
 ------------------------
@@ -50,3 +49,18 @@ The way PARR 30 scores the likelihood of hospital readmission by using the follo
 See the [Nuffield Trust's BMJ Appendix](http://bmjopen.bmj.com/content/2/4/e001667/suppl/DC1) for the coefficient values for all of the fields.
 
 Postcode to LSOA data can be downloaded [from here](http://data.gov.uk/dataset/index_of_multiple_deprivation_imd_2007). 
+
+Unit tests
+----------
+
+To run the unit tests run the following commands from the root of the checked out repo:
+
+```
+npm install
+```
+
+```
+grunt
+```
+
+This will then keep a watch on all *.dll files and re-run the tests if any of them change. 
