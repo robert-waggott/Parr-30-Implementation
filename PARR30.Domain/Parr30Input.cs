@@ -38,7 +38,7 @@ namespace PARR30.Domain
 					"Admission in last month?: " + this.AdmissionInLastMonth.ToString(),
 					"Is current admission emergency/un-planned?: " + this.CurrentAdmissionIsEmergencyOrUnPlanned.ToString()
 				};
-				return string.Join(", ", items);
+                return string.Join(Environment.NewLine, items);
 			}
 		}
 	}
