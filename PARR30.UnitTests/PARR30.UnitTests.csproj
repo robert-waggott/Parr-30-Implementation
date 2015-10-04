@@ -65,6 +65,10 @@
     <Folder Include="Domain\" />
     <Folder Include="Domain\HealthCondition\" />
     <Folder Include="Domain\Parr30Input\" />
+    <Folder Include="Domain\Parr30Output\" />
+    <Folder Include="Domain\Parr30OutputLine\" />
+    <Folder Include="Providers\" />
+    <Folder Include="Providers\CalculationRepository\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PARR30.Providers\PARR30.Providers.csproj">
