@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Domain", "Solutions\PARR30.Domain\PARR30.Domain.csproj", "{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Providers", "Solutions\PARR30.Providers\PARR30.Providers.csproj", "{30579105-EDC9-462E-8616-22D481BD36DE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.UnitTests", "PARR30.UnitTests\PARR30.UnitTests.csproj", "{F9CD882E-9C1E-496A-9115-1DA821DE749C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56D67237-6646-45D4-9DCD-2AE88417C493}"
@@ -13,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		package.json = package.json
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Providers", "PARR30.Providers\PARR30.Providers.csproj", "{30579105-EDC9-462E-8616-22D481BD36DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PARR30.Domain", "PARR30.Domain\PARR30.Domain.csproj", "{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

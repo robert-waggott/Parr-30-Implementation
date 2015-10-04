@@ -38,12 +38,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <Folder Include="Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PARR30.Domain\PARR30.Domain.csproj">
       <Project>{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}</Project>
       <Name>PARR30.Domain</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
   </ItemGroup>
 </Project>

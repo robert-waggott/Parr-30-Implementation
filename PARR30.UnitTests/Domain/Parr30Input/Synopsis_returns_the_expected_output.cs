@@ -23,7 +23,7 @@
         Because Of = () => 
             {
                 parts = Subject.Synopsis
-                    .Split(",")
+                    .Split(',')
                     .Select(part => part.Trim())
                     .ToList();
             };

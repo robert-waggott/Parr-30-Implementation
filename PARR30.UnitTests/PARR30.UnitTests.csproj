@@ -56,25 +56,24 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmptyClass.cs" />
     <Compile Include="Domain\HealthCondition\GetDescription_returns_the_expected_Description.cs" />
     <Compile Include="Domain\HealthCondition\GetCoefficient_returns_the_expected_Coefficient.cs" />
     <Compile Include="Domain\Parr30Input\HealthConditions_defaults_to_an_empty_list.cs" />
     <Compile Include="Domain\Parr30Input\Synopsis_returns_the_expected_output.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Solutions\PARR30.Domain\PARR30.Domain.csproj">
-      <Project>{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}</Project>
-      <Name>PARR30.Domain</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Solutions\PARR30.Providers\PARR30.Providers.csproj">
-      <Project>{30579105-EDC9-462E-8616-22D481BD36DE}</Project>
-      <Name>PARR30.Providers</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Domain\" />
     <Folder Include="Domain\HealthCondition\" />
     <Folder Include="Domain\Parr30Input\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PARR30.Providers\PARR30.Providers.csproj">
+      <Project>{30579105-EDC9-462E-8616-22D481BD36DE}</Project>
+      <Name>PARR30.Providers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PARR30.Domain\PARR30.Domain.csproj">
+      <Project>{7D17A8C1-7980-4469-BD09-DF4C6F72D2F6}</Project>
+      <Name>PARR30.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
