@@ -60,6 +60,9 @@
     <Compile Include="Domain\HealthCondition\GetCoefficient_returns_the_expected_Coefficient.cs" />
     <Compile Include="Domain\Parr30Input\HealthConditions_defaults_to_an_empty_list.cs" />
     <Compile Include="Domain\Parr30Input\Synopsis_returns_the_expected_output.cs" />
+    <Compile Include="Domain\Parr30Output\Output_values_are_correctly_calculated.cs" />
+    <Compile Include="Domain\Parr30OutputLine\Output_values_are_correctly_calculated_with_3_parameter_ctor.cs" />
+    <Compile Include="Domain\Parr30OutputLine\Output_values_are_correctly_calculated_with_2_parameter_ctor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Domain\" />
