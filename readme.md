@@ -16,8 +16,9 @@ The algorithm has three basic categories:
 * Information about the patient’s history of emergency admissions
 * Information about the patient medical history
 
-More information can found by clicking on the below links:
+More information can found by clicking on the below link:
 
+* http://www.nuffieldtrust.org.uk/our-work/projects/predicting-risk-hospital-readmission-parr-30
 * http://www.nuffieldtrust.org.uk/how-implement-parr-30-model-required-data-and-algorithm
 
 About the implementation
